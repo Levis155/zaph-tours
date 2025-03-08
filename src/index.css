@@ -1,10 +1,11 @@
 :root{
   --primary-font: "Inter", sans-serif;
   --primary-color: rgb(63, 15, 40);
-  --color-secondary: rgb(253, 141, 78);
-  --color-yellow-light: rgb(214, 199, 168);
+  --secondary-color: rgb(253, 141, 78);
+  --color-yellow-light: rgb(210, 105, 30);
   --color-black: black;
   --color-white: white;
+  --light-purple: rgb(207, 187, 198);
 
 }
 
