@@ -15,7 +15,6 @@ function TaglineContainer() {
     <div className="tagline-container">
       <div className="tagline-cont-top">
         <h1 className="tagline">discover</h1>
-        <p className="tagline-subtext">Explore diverse destinations, from hidden gems to iconic landmarks, and embark on unforgettable journeys. Your adventure begins here - discover the world with us!</p>
       </div>
       
       <div className="tagline-cont-bottom">

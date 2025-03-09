@@ -1,7 +1,5 @@
 .header-wrapper{
-
     width: 100%;
-    padding: 0rem 10rem;
 }
 @media screen and (max-width:65.625em) {
     .header-wrapper{
@@ -11,7 +9,7 @@
 .header{
     display: flex;
     border-bottom: 1px solid var(--primary-color);
-    padding: 2rem 0;
+    padding: 2rem 10rem;
 }
 
 @media screen and (max-width:56.25em) {

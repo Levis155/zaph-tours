@@ -1,7 +1,8 @@
 .hero-container{
     background:
-    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("/src/assets/hero-bg.jpg");
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/src/assets/hero-bg4.jpg");
+    background-position: top;
     height: 100vh;
     background-size: cover;
 }
@@ -44,10 +45,7 @@
         font-size: 4rem;
     }
 }
-.tagline-subtext{
-    padding-left: 5rem;
-    color: var(--primary-color);
-}
+
 
 .tagline-cont-bottom{
     display: flex;
@@ -55,9 +53,6 @@
 }
 
 @media screen and (max-width:83.75em) {
-    .tagline-subtext{
-        display: none;
-    }
 
     .tagline-cont-bottom{
         display: flex;
