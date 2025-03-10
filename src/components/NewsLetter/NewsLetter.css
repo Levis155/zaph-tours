@@ -1,0 +1,89 @@
+.news-letter-section {
+    padding: 3rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue-color);
+}
+
+.news-letter-card p {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+@media screen and (max-width:43.75em) {
+    .news-letter-card p {
+        font-size: 1.6rem;
+    }
+}
+
+.newsletter-sub {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.newsletter-title {
+    color: white;
+    text-align: center;
+    font-size: 6rem;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+@media screen and (max-width:43.75em) {
+    .newsletter-title {
+        font-size: 4rem;
+    }
+}
+
+
+.newsletter-excerpt {
+    max-width: 80rem;
+    margin-bottom: 2rem;
+}
+
+.input-button-outer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-button-cont {
+    padding: .5rem .5rem;
+    border-bottom: 2px solid white;
+}
+
+.input-button-cont input {
+    width: 35rem;
+    padding: 0;
+    font-size: 2.5rem;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+
+.input-button-cont input::placeholder {
+    color: white;
+}
+
+@media screen and (max-width:25.25em) {
+    .input-button-cont input {
+        width: 25rem;
+    }
+}
+
+.input-button-cont button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+.input-button-cont button svg {
+    font-size: 2.5rem;
+}

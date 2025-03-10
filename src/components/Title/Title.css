@@ -1,7 +1,6 @@
 .title{
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,16 +9,14 @@
 }
 
 .title-sub{
-    color: white;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .title-main{
-    font-size: 3rem;
+    font-size: 4rem;
     text-transform: capitalize;
     font-weight: 400;
-    color: white;
     text-align: center;
 }
 

@@ -1,23 +1,28 @@
 .header-wrapper{
     width: 100%;
 }
-@media screen and (max-width:65.625em) {
-    .header-wrapper{
-        padding: 0 1rem;
-    }
-}
 .header{
     display: flex;
     border-bottom: 1px solid var(--primary-color);
     padding: 2rem 10rem;
 }
 
-@media screen and (max-width:56.25em) {
+@media screen and (max-width:65.625em) {
     .header{
         flex-direction: column;
         gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 5rem;
     }
 }
+
+@media screen and (max-width:31.25em) {
+    .header{
+        padding: 2rem 1rem;
+    }
+}
+
 
 .header-logo{
     flex: 1;
@@ -48,11 +53,29 @@
     display: flex;
 }
 
+@media screen and (max-width:65.625em) {
+    .header-navs{
+        width: 100%;
+    }
+}
+
 .navs-list{
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+@media screen and (max-width:65.625em) {
+    .navs-list{
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width:31.25em) {
+    .navs-list{
+        gap: 1rem;
+    }
 }
 
 .nav a{
