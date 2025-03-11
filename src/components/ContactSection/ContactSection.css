@@ -1,0 +1,188 @@
+.contact-section-cont{
+    background-color: rgb(248, 248, 248);
+    padding: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 47.5em) {
+    .contact-section-cont {
+      flex-direction: column;
+      gap: 2rem;
+      padding: 0;
+    }
+  }
+
+.contact-details{
+    background-color: white;
+    width: 30%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+@media screen and (max-width: 47.5em) {
+    .contact-details {
+        width: 100%;
+    }
+  }
+
+.contact-card{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.contact-card-title{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-card-title svg{
+    font-size: 4rem;
+    color: var(--primary-color);
+}
+
+.contact-card-title p{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.contact-card-detail{
+    margin-bottom: 2rem;
+}
+
+.detail1-title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+.contact-card-detail a{
+    color: rgb(133, 132, 132);
+    text-transform: capitalize;
+}
+.contact-card-socials{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-card-socials svg{
+    color: rgb(133, 132, 132);
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 69%;
+    background-color: white;
+    padding: 2rem;
+}
+
+@media screen and (max-width: 47.5em) {
+    .contact-form {
+        width: 100%;
+        padding: 1rem;
+    }
+  }
+
+.contact-form-title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 3rem;
+}
+
+.inputs-row{
+    display: flex;
+}
+
+@media screen and (max-width: 71.25em) {
+    .inputs-row {
+      flex-direction: column;
+      gap: 1rem;
+      align-items: start;
+    }
+  }
+
+.input-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input-container label{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.text-input, .number-input, .select-input, .date-input{
+    width: 30rem;
+    height: 5rem;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color);
+    outline: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-family: inherit;
+}
+
+.checkbox-inputs-container, .radio-inputs-container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.checkbox-inputs-container p, .radio-inputs-container p{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.checkbox-input-container, .radio-input-container{
+    margin-bottom: 1rem;
+}
+
+.checkbox-input-container input , .radio-input-container input{
+    cursor: pointer;
+    margin-right: .5rem;
+}
+
+.checkbox-input-container label , .radio-input-container label{
+    text-transform: capitalize;
+}
+
+.form-submit-btn{
+    align-self: flex-start;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+    transition: all .5s;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.form-submit-btn:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+.map-container{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 100%;
+    height: 50rem;
+    padding: 0 2rem;
+}
