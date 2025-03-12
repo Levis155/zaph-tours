@@ -1,27 +1,27 @@
-.title{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5rem 0rem;
+.title {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0rem;
 }
 
-.title-sub{
-    font-weight: 600;
-    text-transform: uppercase;
+.title-sub {
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
-.title-main{
-    font-size: 4rem;
-    text-transform: capitalize;
-    font-weight: 400;
-    text-align: center;
+.title-main {
+  font-size: 4rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  text-align: center;
 }
 
 @media screen and (max-width: 31.25em) {
-    .title-main {
-      font-size: 2rem;
-    }
+  .title-main {
+    font-size: 2rem;
   }
+}

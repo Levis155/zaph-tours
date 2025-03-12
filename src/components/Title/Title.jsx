@@ -1,12 +1,12 @@
-import "./Title.css"
+import "./Title.css";
 
 function Title({ titleSub, titleMain }) {
   return (
-    <div className='title'>
+    <div className="title">
       <p className="title-sub">{titleSub}</p>
       <p className="title-main">{titleMain}</p>
     </div>
-  )
+  );
 }
 
-export default Title
+export default Title;

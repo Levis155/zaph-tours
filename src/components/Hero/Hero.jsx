@@ -1,5 +1,5 @@
-import "./Hero.css"
-import Header from "../Header/Header"
+import "./Hero.css";
+import Header from "../Header/Header";
 
 function Hero() {
   return (
@@ -7,24 +7,21 @@ function Hero() {
       <Header />
       <TaglineContainer />
     </div>
-  )
+  );
 }
 
 function TaglineContainer() {
-  return(
+  return (
     <div className="tagline-container">
       <div className="tagline-cont-top">
         <h1 className="tagline">discover</h1>
       </div>
-      
+
       <div className="tagline-cont-bottom">
         <div className="span">let's fly</div>
         <h1 className="tagline">around the world</h1>
       </div>
     </div>
-  )
+  );
 }
-export default Hero
-
-
-
+export default Hero;

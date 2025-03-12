@@ -1,7 +1,7 @@
-import Header from "../../components/Header/Header"
-import DestinationsCardsWrapper from "../../components/DestinationsCardsWrapper/DestinationsCardsWrapper"
-import NewsLetter from "../../components/NewsLetter/NewsLetter"
-import Footer from "../../components/Footer/Footer"
+import Header from "../../components/Header/Header";
+import DestinationsCardsWrapper from "../../components/DestinationsCardsWrapper/DestinationsCardsWrapper";
+import NewsLetter from "../../components/NewsLetter/NewsLetter";
+import Footer from "../../components/Footer/Footer";
 
 function Destinations() {
   return (
@@ -11,7 +11,7 @@ function Destinations() {
       <NewsLetter />
       <Footer />
     </>
-  )
+  );
 }
 
-export default Destinations
+export default Destinations;

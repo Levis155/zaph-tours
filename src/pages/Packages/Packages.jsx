@@ -1,7 +1,7 @@
-import Header from "../../components/Header/Header"
-import PackagesContainer from "../../components/PackagesContainer/PackagesContainer"
-import NewsLetter from "../../components/NewsLetter/NewsLetter"
-import Footer from "../../components/Footer/Footer"
+import Header from "../../components/Header/Header";
+import PackagesContainer from "../../components/PackagesContainer/PackagesContainer";
+import NewsLetter from "../../components/NewsLetter/NewsLetter";
+import Footer from "../../components/Footer/Footer";
 
 function Packages() {
   return (
@@ -11,7 +11,7 @@ function Packages() {
       <NewsLetter />
       <Footer />
     </>
-  )
+  );
 }
 
-export default Packages
+export default Packages;

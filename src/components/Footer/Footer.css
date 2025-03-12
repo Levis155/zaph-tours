@@ -1,79 +1,77 @@
-.footer{
-    display: flex;
-    background-color: var(--primary-color);
-    gap: 7rem;
-    padding: 5rem 10rem;
+.footer {
+  display: flex;
+  background-color: var(--primary-color);
+  gap: 7rem;
+  padding: 5rem 10rem;
 }
 
 @media screen and (max-width: 60em) {
-    .footer {
-      flex-direction: column;
-    }
+  .footer {
+    flex-direction: column;
   }
-
-.footer-col{
-    display: flex;
-    flex-direction: column;
 }
 
-.footer-title{
-    font-size: 2rem;
-    font-weight: 600;
-    color: white;
-    margin-bottom: 3rem;
-    text-transform: capitalize;
+.footer-col {
+  display: flex;
+  flex-direction: column;
 }
 
-.links-cont{
-    display: flex;
-    flex-direction: column;
-}
-.links-cont a{
-    color: lightgray;
-    margin-bottom: .5rem;
-    text-transform: capitalize;
-    margin-bottom: 1rem;
+.footer-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 3rem;
+  text-transform: capitalize;
 }
 
-.icon-and-label{
-    margin-bottom: 1rem;
-    display: flex;
-    align-items: center;
+.links-cont {
+  display: flex;
+  flex-direction: column;
+}
+.links-cont a {
+  color: lightgray;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
 }
 
-.icon-and-label svg{
-    color: lightgray;
-    margin-right: 1rem;
+.icon-and-label {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
 }
 
-.icon-and-label a{
-    color: lightgray;
-    text-transform: capitalize;
+.icon-and-label svg {
+  color: lightgray;
+  margin-right: 1rem;
 }
 
-.social-links-group{
-    margin-top: 1rem;
-    display: flex;
-    gap: 1rem;
+.icon-and-label a {
+  color: lightgray;
+  text-transform: capitalize;
 }
 
-
-
-.social-links-group svg{
-    font-size: 4rem;
-    color: var(--primary-color);
-    background-color: lightgray;
-    border-radius: 50%;
-    padding: 1rem;
-    transition: all .5s;
-}
-.copyright{
-    background-color: var(--primary-color);
-    padding: 2rem 1rem;
-    border-top: 1px solid white;
+.social-links-group {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
-.copyright p{
-    color: white;
-    text-align: center;
+.social-links-group svg {
+  font-size: 4rem;
+  color: var(--primary-color);
+  background-color: lightgray;
+  border-radius: 50%;
+  padding: 1rem;
+  transition: all 0.5s;
+}
+.copyright {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  border-top: 1px solid white;
+}
+
+.copyright p {
+  color: white;
+  text-align: center;
 }

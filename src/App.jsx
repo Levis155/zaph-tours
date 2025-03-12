@@ -1,14 +1,13 @@
-import React from "react"
-import Hero from "./components/Hero/Hero"
-import Home from "./pages/Home/Home"
-import Destinations from "./pages/Destinations/Destinations"
-import Packages from "./pages/Packages/Packages"
-import Contact from "./pages/Contact/Contact"
-import { Route, Routes } from 'react-router-dom'
+import React from "react";
+import Hero from "./components/Hero/Hero";
+import Home from "./pages/Home/Home";
+import Destinations from "./pages/Destinations/Destinations";
+import Packages from "./pages/Packages/Packages";
+import Contact from "./pages/Contact/Contact";
+import { Route, Routes } from "react-router-dom";
 
-function App()
-{
-  return(
+function App() {
+  return (
     <React.Fragment>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -17,7 +16,7 @@ function App()
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </React.Fragment>
-  )
+  );
 }
 
-export default App
+export default App;
