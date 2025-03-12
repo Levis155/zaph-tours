@@ -81,7 +81,7 @@ function DPCard({ Img, Name, Tagline, Excerpt, PriceGroup, PriceIndividual }) {
         </div>
 
         <div className="dp-card-details-link">
-          <Link>view</Link>
+          <Link className="view-link">view</Link>
         </div>
       </div>
     </div>
