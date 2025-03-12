@@ -3,6 +3,7 @@ import Title from "../../components/Title/Title"
 import { IoIosPricetag } from "react-icons/io";
 import "./PackagesContainer.css"
 import packagesData from '../../data/PackagesData';
+import {Link} from "react-router-dom"
 
 function PackagesContainer() {
   return (
@@ -28,8 +29,14 @@ function PackagesCard({PackageName, Tagline, PackageExcerpt, PackagePrice, Image
                     <p className="package-card-excerpt">{PackageExcerpt}</p>
 
                     <div className="package-card-details">
-                        <IoIosPricetag />
-                        <p className="package-price">{PackagePrice}</p>
+                        <div className="package-card-details-left">
+                            <IoIosPricetag />
+                            <p className="package-price">{PackagePrice}</p>
+                        </div>
+                        
+                        <div className="package-card-details-right">
+                            <Link>book package</Link>
+                        </div>
                     </div>
                 </div>
 
