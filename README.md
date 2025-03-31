@@ -1,8 +1,19 @@
-# React + Vite
+# Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Built a multi-page website for a fictional touring company (Zaph Tours) using React. This was the end of month 1 project at the Teach2Give boot camp and looked to test all technologies we had covered thus far.
 
-Currently, two official plugins are available:
+# Interface Glimpses
+ ## Home page
+<img src="./src/assets/Screenshot (194).png" alt="">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Destinations page
+
+<img src="./src/assets/Screenshot (195).png" alt="">
+
+## Packages page
+
+<img src="./src/assets/Screenshot (196).png" alt="">
+
+## Contacts page
+
+<img src="./src/assets/Screenshot (197).png" alt="">
